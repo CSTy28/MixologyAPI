@@ -34,7 +34,7 @@ function getDrinksByIngredient(){
     var newinp = (inp.trim()).replace(/\s/g, '+');
 
     
-    
+    //
     $.getJSON("https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=" + inp, function(data){
         console.log(data.drinks);
         let html = "";
